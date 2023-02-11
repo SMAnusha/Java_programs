@@ -1,0 +1,17 @@
+class Array9
+{
+public static void main(String[]args)
+{
+int acc[]={1,2,3,4,5,6,7,8,9,10};
+int mul=1;
+for(int i=0;i<acc.length;i++)
+{
+if(acc[i]%2==0)
+{
+System.out.println(acc[i]);
+mul=mul*(acc[i]*acc[i]);
+}
+}
+System.out.println(mul);
+}
+}

@@ -1,0 +1,14 @@
+class Tra
+{
+static void area(int l, int m, int n)
+{
+double result=0.5*(l+m)*n;
+System.out.println("Method with parameter- Area of Trapezoid is "+ result);
+}
+public static void main(String[]args)
+{
+System.out.println("------Main starts---");
+area(100,236,300);
+System.out.println("-------Main ends-----");
+}
+}

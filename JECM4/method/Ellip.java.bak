@@ -1,0 +1,15 @@
+class Ellip
+{
+static void area(byte b, double c)
+{
+final double pi=3.142;
+double result=pi*b*c;
+System.out.println("Method with parameter- Area of Ellipse is "+ result);
+}
+public static void main(String[]args)
+{
+System.out.println("------starts-----");
+area(78,6.786);
+System.out.println("--------ends-----");
+}
+}

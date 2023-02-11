@@ -1,0 +1,14 @@
+class Employee
+{
+static String emp_id="SAE01";
+int emp_sal=70000;
+char emp_grade='A';
+public static void main(String[]args)
+{
+System.out.println("Employee id is "+ emp_id);
+
+System.out.println("Employee salary is "+ emp_sal);
+
+System.out.println("Employee grade will be "+ emp_grade);
+}
+}

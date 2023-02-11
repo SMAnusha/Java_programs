@@ -1,0 +1,26 @@
+class Metro
+{
+void Topup(int no)
+{
+System.out.println("your Topup number is "+ no);
+}
+static void Topup(String scan)
+{
+System.out.println(scan+ "Scan to Topup here");
+}
+void  Topup(int no, String UPI)
+{
+System.out.println(no + UPI);
+}
+
+}
+class Nammametro
+{
+public static void main(String[]args)
+{
+Metro t = new Metro();
+t.Topup(1234);
+Metro.Topup("Scan here");
+t.Topup(456, "xyz@796");
+}
+}

@@ -1,0 +1,14 @@
+class Student
+{
+static string std_name="Rajesh";
+static int std_fees=36000;
+static char sec='A';
+static string in_name="Jspiders";
+public static void main(String[]args)
+{
+System.out.println("student name is "+ std_name);
+System.out.println("student fees is "+ std_fees);
+System.out.println("student section is "+ sec);
+System.out.println("student institute name is "+ in_name);
+}
+}

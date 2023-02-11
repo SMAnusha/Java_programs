@@ -1,0 +1,22 @@
+class Medicines
+{
+void product()
+{
+System.out.println("We provide all kinds of mediciens");
+}
+}
+class Pharmacy
+{
+public static void main(String[]args)
+{
+Medicines m1=new Medicines();
+Customer1.needmed(s1);
+}
+}
+class Customer1
+{
+static void needmed(Medicines m2)
+{
+m2.product();
+}
+}

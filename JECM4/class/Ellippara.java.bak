@@ -1,0 +1,16 @@
+class Ellips
+{
+static void area(float a, double b)
+{
+final double pi=3.142;
+double result= pi*a*b;
+System.out.println(result);
+}
+}
+class Ellippara
+{
+public static void main(String[]args)
+{
+Ellips.area(87.6f, 98.63)
+}
+}

@@ -1,0 +1,21 @@
+class Demo1
+{
+double z=56.19;
+}
+class Dumtaka extends Demo1
+{
+int x=10;
+}
+class CTC5
+{
+public static void main(String[]args)
+{
+System.out.println("upcasting");
+Demo1 d1=new Dumtaka();
+System.out.println(d1.z);
+System.out.println("downcasting");
+Dumtaka d2=(Dumtaka)d1;
+System.out.println(d2.x);
+System.out.println(d2.z);
+}
+}

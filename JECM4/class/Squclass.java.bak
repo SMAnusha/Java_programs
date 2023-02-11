@@ -1,0 +1,16 @@
+class Squ
+{
+static void area()
+{
+short a=300;
+int result=a*a;
+System.out.println(result);
+}
+}
+classS Squclass
+{
+public static void main(String[]args)
+{
+Squ.area();
+}
+}

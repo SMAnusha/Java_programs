@@ -1,0 +1,30 @@
+class Cool
+{
+void add()
+{
+int a=10, b=20;
+int c=a+b;
+System.out.println(c);
+}
+}
+class Goolata extends Cool
+{
+void disp()
+{
+System.out.println("class typecasting");
+}
+}
+class CTC4
+{
+public static void main(String[]args)
+{
+System.out.println("upcasting");
+Cool c1=new Goolata();
+c1.add();
+System.out.println("downcasting");
+Goolata g1=(Goolata)c1;
+g1.disp();
+g1.add();
+
+}
+}

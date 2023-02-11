@@ -1,0 +1,15 @@
+class Parallelogram
+{
+static void area()
+{
+int i=900, j=1000;
+int result=i*j;
+System.out.println("Area of Prallelogram is "+ result);
+}
+public static void main(String[]args)
+{
+System.out.println("-----starts execution--------");
+area();
+System.out.println("-------ends execution--------");
+}
+}

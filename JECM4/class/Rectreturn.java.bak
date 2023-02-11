@@ -1,0 +1,15 @@
+class Rectangle
+{
+static int area()
+{
+int w=57, h=67;
+int c=w*h;
+return c;
+}
+}
+class Rectreturn
+{
+int y=Rectangle.area();
+System.out.println(y);
+}
+}

@@ -1,0 +1,15 @@
+class Tri
+{
+static void area(int b, int h)
+{
+double result= 0.5*b*h;
+System.out.println("Area of Triangle is "+ result);
+}
+}
+class Tripara
+{
+public static void main(String[]args)
+{
+Tri.area(76,86);
+}
+}

@@ -1,0 +1,16 @@
+class Main2
+{
+static void mul()
+{
+int i=2, j=3, k=4;
+int result=i*j*k;
+System.out.println(result);
+return;
+}
+public static void main(String[]args)
+{
+System.out.println("--------Main method Starts---------");
+mul();
+System.out.println("--------Main method Ends------------");
+}
+}

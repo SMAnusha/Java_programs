@@ -1,0 +1,14 @@
+class Squ
+{
+void area(int a)
+{
+int res=a*a;
+System.out.println(res);
+}
+}
+class Squstatic
+{
+Squ y1=new Squ();
+y1.area(58);
+}
+}

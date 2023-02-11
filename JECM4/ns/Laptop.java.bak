@@ -1,0 +1,15 @@
+class Laptop
+{
+int lap_cost=80000;
+static String lap_name="HCL";
+static String lap_brand="HP";
+public static void main(String[]args)
+{
+System.out.println("Laptop name in "+ lap_name);
+System.out.println("Laptop brand name is "+ lap_brand);
+Laptop lap1=new Laptop();
+System.out.println(lap1.lap_cost);
+lap1.lap_name="Lenovo";
+System.out.println("Updated laptop nmae is "+ lap1.lap_name);
+}
+}
